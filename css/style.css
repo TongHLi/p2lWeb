@@ -1,0 +1,41 @@
+html,
+	body {
+		height: 100%;
+	}
+
+	body {
+		margin: 0;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+		background-image: url(./images/bg.jpg);
+   //   background-color: #000000;
+	}
+
+	
+	div{
+		
+		width: 100%;
+		margin: 0;
+		padding: 0;
+      padding-left:25px;
+		color:#fff;
+		background-color: rgba(0,0,0,0);
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		flex-direction:column; 
+		justify-content: center;
+		align-items: left;
+	}
+   
+   h2{
+   margin: 0px;
+    padding: 0px;
+    }
+    h2 + p{
+   margin: 0px;
+    padding: 0px;
